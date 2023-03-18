@@ -14,11 +14,11 @@ body {
     background-size: cover;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);           /* span wale element center me aa gaya*/
     animation: animate 6s linear;
   }
   
-  @keyframes animate {
+  @keyframes animate {                  /* @keyframes is used form creating annimation */
     0% {
       transform: translate(-50%, -50%);
       opacity: 1;
